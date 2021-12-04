@@ -1,0 +1,22 @@
+{
+    "name": "Organization",
+    "alias": "organization",
+    "description": "",
+    "keywords": [
+        "framework",
+        "laravel",
+        "boilerplate",
+        "organization"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\Organization\\Providers\\OrganizationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "minimumCoreVersion": "",
+    "title": "Organization",
+    "version":"0.0.1",
+    "author": "Hafijul Islam"
+}
