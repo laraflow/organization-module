@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Modules\Organization\Http\Controllers\OrganizationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::prefix('organization')->group(function() {
-    Route::get('/', 'OrganizationController@index');
+    Route::get('/', [OrganizationController::class, 'index']);
 });
