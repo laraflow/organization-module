@@ -1,12 +1,17 @@
 <?php
 
-namespace Modules\Organization\Http\Controllers\Company;
+namespace Modules\Organization\Http\Controllers\Common;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-class CompanyController extends Controller
+
+/**
+ * @class MarketController
+ * @package Organization
+ */
+class MarketController extends Controller
 {
     /**
      * Display a listing of the resource.

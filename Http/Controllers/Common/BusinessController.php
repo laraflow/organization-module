@@ -1,11 +1,16 @@
 <?php
 
-namespace Modules\Organization\Http\Controllers\Company;
+namespace Modules\Organization\Http\Controllers\Common;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
+
+/**
+ * @class BusinessController
+ * @package Organization
+ */
 class BusinessController extends Controller
 {
     /**
