@@ -5,7 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 use Modules\Core\Supports\Constant;
 
-class CreateContactsTable extends Migration
+class CreateOrganizationContactsTable extends Migration
 {
     /**
      * Run the migrations.
